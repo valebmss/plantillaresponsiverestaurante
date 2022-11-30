@@ -40,19 +40,32 @@ main {
 
 .info-subtitle {
   color: #333;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 24px;
 }
 
 .info-button {
   border: none;
   border-radius: 20px;
-  color: #333;
+  color: rgb(78, 68, 68);
   background-color: #fb8c00;
   font-weight: 900;
   padding: 12px 24px;
 }
 
+.info-button:hover {
+  background-color: #c77006;
+  cursor: pointer;
+
+}
+
+.menu .plates .face{
+  transition: 0.5s;
+}
+
+.menu .plates .face{
+  transition: 0.5s;
+}
 /* Second section - services */
 
 .services-title {
@@ -106,6 +119,7 @@ main {
   margin: 0;
   background-color: #ffebee;
   padding: 20px;
+  cursor: pointer;
   border-top-left-radius: 30px;
 }
 
